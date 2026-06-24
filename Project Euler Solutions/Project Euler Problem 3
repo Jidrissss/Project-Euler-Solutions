@@ -1,0 +1,7 @@
+p=600851475143
+n=m=1
+while m<p:
+    n=n+1
+    if p%n==0:
+        m=m*n
+print(n)
